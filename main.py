@@ -2,7 +2,7 @@ from fastapi import Header, HTTPException, FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 import uvicorn
 import json
-from random import randint, choice
+from random import randint
 
 """i dunno why but i love writing api project and still dunno how to use them in site (i dunno how to use html tbh😭)"""
 

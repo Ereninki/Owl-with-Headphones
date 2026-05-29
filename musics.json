@@ -1,0 +1,29 @@
+{
+    "musics": {
+        "funky night": {
+            "id": 5,
+            "vote": 1,
+            "link": "https://youtu.be/ZA0dZQTSK-0?si=k5TcUpiociNnsuwk",
+            "voted_by": [
+                "user1"
+            ],
+            "added_by": "user2"
+        },
+        "me versus him": {
+            "id": 6,
+            "vote": 1,
+            "link": "https://www.youtube.com/watch?v=0S01v2giEew&list=RD0S01v2giEew&start_radio=1",
+            "voted_by": [
+                "user2"
+            ],
+            "added_by": "user1"
+        },
+        "afternoon of konoha": {
+            "id": 10173,
+            "vote": 0,
+            "link": "https://www.youtube.com/watch?v=qAGvQDoL5s4&list=RDqAGvQDoL5s4&start_radio=1",
+            "added_by": "ereninki",
+            "voted_by": []
+        }
+    }
+}

@@ -2,7 +2,7 @@
 
 This is an api project that i made for midnight coders to select their musics while coding at midnight!! i dunno how to code html so i just made an api for it but maybe in the future i can make it a website who knows?
 
-(okay so it turns out that i dedscribe this project as a website in the macondo description i am very sorry abt that reviewer but i forgot to edit it srry again)
+(okay so it turns out that i describe this project as a website in the macondo description i am very sorry abt that reviewer but i forgot to edit it srry again)
 
 ## Usage
 

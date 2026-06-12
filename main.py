@@ -170,6 +170,20 @@ async def reset_vote(username: str):
     await write_musics(musics)
     return {"success": "your vote is succesfully removed!11111!!!111!!1!"}
 
+@app.get("/api/v1/search-music")
+async def search_music(music_name: str):
+    musics = await read_musics()
+    possible_musics = []
+
+    if music_name.strip() == "":
+        raise HTTPException(400, "pls put a music name, not my brain")
+
+    for a in musics["musics"]:
+        if music_name.lower() in a.lower():
+            possible_musics.append(a)
+
+    return {"did you mean": possible_musics}
+
 @app.post("/api/v1/vote-music")
 async def vote_music(id: int, username: str):
     musics = await read_musics()

@@ -198,6 +198,10 @@ async def vote_music(id: int, username: str):
     else:
         return {"success": "succesfully voted for that music!!!11!111!1!!1 (i dunno what music it is but im sure its a w/ music)"}
     
+@app.get("/api/v1")
+async def health():
+    return {"health": "OK"}
+    
 
 if __name__ == "__main__":
     uvicorn.run(app)

@@ -2,8 +2,6 @@
 
 This is an api project that i made for midnight coders to select their musics while coding at midnight!! i dunno how to code html so i just made an api for it but maybe in the future i can make it a website who knows?
 
-(okay so it turns out that i describe this project as a website in the macondo description i am very sorry abt that reviewer but i forgot to edit it srry again)
-
 ## Usage
 
 The base is **/api/v1** and i highly recommend to you to use postman (but if you have another app that okay and you can make your own clients too)

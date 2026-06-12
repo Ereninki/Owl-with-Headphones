@@ -182,6 +182,9 @@ async def search_music(music_name: str):
         if music_name.lower() in a.lower():
             possible_musics.append(a)
 
+    if possible_musics == []:
+        return {"message": "sorry bro but there is no music with that name, maybe you can check '/api/v1/all-musics' to see all the musics"}
+
     return {"did you mean": possible_musics}
 
 @app.post("/api/v1/vote-music")

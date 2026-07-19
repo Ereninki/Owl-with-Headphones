@@ -8,6 +8,14 @@ The base is **/api/v1** and i highly recommend to you to use postman (but if you
 
 ---
 
+## Tech Stack
+
+- FastAPI
+- Uvicorn
+- JSON
+
+  ***
+
 ## Documentation
 
 **URL:** `/api/v1/add-music`
@@ -18,7 +26,7 @@ The base is **/api/v1** and i highly recommend to you to use postman (but if you
 <br>
 **Usage:** `Adding a music`
 <br>
-**Example:** `https://studio-consistently-icq-prozac.trycloudflare.com/api/v1/add-music?music_name=afternoon of konoha&link=https://www.youtube.com/watch?v=qAGvQDoL5s4%26list=RDqAGvQDoL5s4%26start_radio=1&username=ereninki`
+**Example:** `https://owl-with-headphones.ereninki.hackclub.app/api/v1/add-music?music_name=afternoon of konoha&link=https://www.youtube.com/watch?v=qAGvQDoL5s4%26list=RDqAGvQDoL5s4%26start_radio=1&username=ereninki`
 
 ---
 
@@ -30,7 +38,7 @@ The base is **/api/v1** and i highly recommend to you to use postman (but if you
 <br>
 **Usage:** `Showing you a random music from all musics`
 <br>
-**Example:** `https://studio-consistently-icq-prozac.trycloudflare.com/api/v1/random-music`
+**Example:** `https://owl-with-headphones.ereninki.hackclub.app/api/v1/random-music`
 
 ---
 
@@ -42,7 +50,7 @@ The base is **/api/v1** and i highly recommend to you to use postman (but if you
 <br>
 **Usage:** `Showing you all musics that you can listen or vote`
 <br>
-**Example:** `https://studio-consistently-icq-prozac.trycloudflare.com/api/v1/all-musics`
+**Example:** `https://owl-with-headphones.ereninki.hackclub.app.com/api/v1/all-musics`
 
 ---
 
@@ -54,7 +62,7 @@ The base is **/api/v1** and i highly recommend to you to use postman (but if you
 <br>
 **Usage:** `Delete a music that YOU ADDED`
 <br>
-**Example:** `https://studio-consistently-icq-prozac.trycloudflare.com/api/v1/delete-music?music_id=123456&username=ereninki`
+**Example:** `https://owl-with-headphones.ereninki.hackclub.app/api/v1/delete-music?music_id=123456&username=ereninki`
 
 ---
 
@@ -66,7 +74,7 @@ The base is **/api/v1** and i highly recommend to you to use postman (but if you
 <br>
 **Usage:** `Showing your or someones musics`
 <br>
-**Example:** `https://studio-consistently-icq-prozac.trycloudflare.com/api/v1/users-musics?username=ereninki`
+**Example:** `https://owl-with-headphones.ereninki.hackclub.app/api/v1/users-musics?username=ereninki`
 
 ---
 
@@ -78,7 +86,7 @@ The base is **/api/v1** and i highly recommend to you to use postman (but if you
 <br>
 **Usage:** `Showing you top musics with a limit of your choice`
 <br>
-**Example:** `https://studio-consistently-icq-prozac.trycloudflare.com/api/v1/top-musics?music_count=3`
+**Example:** `https://owl-with-headphones.ereninki.hackclub.app/api/v1/top-musics?music_count=3`
 
 ---
 
@@ -90,7 +98,7 @@ The base is **/api/v1** and i highly recommend to you to use postman (but if you
 <br>
 **Usage:** `resetting your vote`
 <br>
-**Example:** `https://studio-consistently-icq-prozac.trycloudflare.com/api/v1/reset-vote?username=ereninki`
+**Example:** `https://owl-with-headphones.ereninki.hackclub.app/api/v1/reset-vote?username=ereninki`
 
 ---
 
@@ -102,7 +110,7 @@ The base is **/api/v1** and i highly recommend to you to use postman (but if you
 <br>
 **Usage:** `voting a music`
 <br>
-**Example:** `https://studio-consistently-icq-prozac.trycloudflare.com/api/v1/vote-music?username=ereninki&id=123456`
+**Example:** `https://owl-with-headphones.ereninki.hackclub.app/api/v1/vote-music?username=ereninki&id=123456`
 
 ---
 
@@ -114,4 +122,4 @@ The base is **/api/v1** and i highly recommend to you to use postman (but if you
 <br>
 **Usage:** `helping you find the music that on your tongue`
 <br>
-**Example:** `https://studio-consistently-icq-prozac.trycloudflare.com/api/v1/search-music?music_name=afternoon`
+**Example:** `https://owl-with-headphones.ereninki.hackclub.app/api/v1/search-music?music_name=afternoon`

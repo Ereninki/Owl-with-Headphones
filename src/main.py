@@ -79,7 +79,7 @@ async def get_random_music():
 
     random_music_number = randint(0, len(music_names)-1)
     random_music = musics["musics"][music_names[random_music_number]]
-    return {"message": "here's your music!!! (hope youll like it)", str(music_names[random_music_number]): random_music}
+    return {"message": "here's your music!!! (hope you'll like it)", str(music_names[random_music_number]): random_music}
 
 @app.get("/api/v1/all-musics")
 async def get_all_musics():
